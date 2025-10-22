@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #004d7a;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+h2 {
+    color: #004d7a;
+}
+
+
+.profile-img {
+    width: 180px;
+    border-radius: 50%;
+    display: block;
+    margin: 10px auto;
+}
+
+
+img:not(.profile-img) {
+    width: 250px;
+    border-radius: 6px;
+    display: block;
+    margin: 10px auto;
+}
+
+
+.project {
+    background-color: white;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 8px;
+    box-shadow: 0 0 4px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.project img {
+    width: 250px;
+    border-radius: 6px;
+}
+
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 0.5rem 1rem;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #004d7a;
+    color: white;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+
+.dark-mode {
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+}
+
+.dark-mode header {
+    background-color: #222;
+}
+
+.dark-mode footer {
+    background-color: #222;
+}
