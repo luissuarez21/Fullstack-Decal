@@ -2,7 +2,6 @@ const express = require('express');
 const axios = require('axios');
 const router = express.Router();
 
-// Debug endpoint to check API key
 router.get('/test/key', (req, res) => {
   const apiKey = process.env.OPENWEATHER_API_KEY;
   res.json({ 
@@ -12,7 +11,7 @@ router.get('/test/key', (req, res) => {
   });
 });
 
-// GET /api/weather/:city
+
 router.get('/:city', async (req, res) => {
   try {
     const { city } = req.params;
