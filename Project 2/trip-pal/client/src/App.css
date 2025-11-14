@@ -1,0 +1,29 @@
+.app {
+  min-height: 100vh;
+}
+
+.navbar {
+  background: #333;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+
+.nav-menu a {
+  color: white;
+  text-decoration: none;
+}
